@@ -557,3 +557,12 @@ Footer components
 	font-weight: bold;
 	margin-bottom: 5px;
 }
+
+#avatar_tejeda {
+    background-image: url('./../img/avatars/tejeda.jpg');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
