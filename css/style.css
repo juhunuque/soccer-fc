@@ -19,8 +19,8 @@ body {
   font-family: "Droid Serif", serif;
   color: #7f8c97;
   background-color: #e9f0f5;
-		background-image: url('./../img/gl-white.png') no-repeat;
 }
+
 
 a {
   color: #acb7c0;
@@ -558,11 +558,23 @@ Footer components
 	margin-bottom: 5px;
 }
 
+/* --------------------------------
+
+Avatar components
+
+-------------------------------- */
+.avatar{
+	width: 60px;
+	height: 60px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+
 #avatar_tejeda {
     background-image: url('./../img/avatars/tejeda.jpg');
-    width: 60px;
-    height: 60px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
+}
+
+#avatar_myrie {
+    background-image: url('./../img/avatars/myrie.jpg');
 }
