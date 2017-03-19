@@ -571,6 +571,16 @@ Avatar components
 	border-radius: 50%;
 }
 
+@media only screen and (max-width: 1170px) {
+	.avatar{
+		width: 40px;
+		height: 40px;
+		background-size: cover;
+		background-position: center;
+		border-radius: 50%;
+	}
+	}
+
 #avatar_tejeda {
     background-image: url('./../img/avatars/tejeda.jpg');
 }
